@@ -18,12 +18,12 @@ while True:
           break
         divisor += 1
 
-    # Show the Result
-    if prime:
-        print(f"{number} is a prime number.")
-    else:
-        print(f"{number} is not a prime number.")
-    break
+      # Show the Result
+      if prime:
+          print(f"{number} is a prime number.")
+      else:
+          print(f"{number} is not a prime number.")
+      break
 
   # Handel error
   except ValueError:
